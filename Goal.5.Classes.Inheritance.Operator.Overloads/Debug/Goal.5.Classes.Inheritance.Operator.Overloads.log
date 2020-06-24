@@ -1,0 +1,165 @@
+﻿  Goal.6.cpp
+  Player.cpp
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.cpp(130,36): warning C4018: '<=': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(758,1): error C2280: 'std::pair<const _Kty,_Ty>::pair(const std::pair<const _Kty,_Ty> &)': attempting to reference a deleted function
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(758,1): error C2280:         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(758,1): error C2280:         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(758,1): error C2280:             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(758,1): error C2280:             _Ty=std::unique_ptr<Item,std::default_delete<Item>>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xmemory(758,1): error C2280:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137): message : see declaration of 'std::pair<const _Kty,_Ty>::pair'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message : 'std::pair<const _Kty,_Ty>::pair(const std::pair<const _Kty,_Ty> &)': function was implicitly deleted because a data member invokes a deleted or inaccessible function 'std::unique_ptr<Item,std::default_delete<_Ty>>::unique_ptr(const std::unique_ptr<_Ty,std::default_delete<_Ty>> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message :         and
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message :             _Ty=Item
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\utility(137,5): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message : 'std::unique_ptr<Item,std::default_delete<_Ty>>::unique_ptr(const std::unique_ptr<_Ty,std::default_delete<_Ty>> &)': function was explicitly deleted
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message :             _Ty=Item
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\memory(1914,5): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(355): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,_Ty&>(_Alloc &,_Objty *const ,_Ty &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(355): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(355): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(355): message :             _Alloc=std::allocator<std::_Tree_node<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>,std::_Default_allocator_traits<std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>>::void_pointer>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(355): message :             _Ty=std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(355): message :             _Objty=std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(355): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(360): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,_Ty&>(_Alloc &,_Objty *const ,_Ty &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(360): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(360): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(360): message :             _Alloc=std::allocator<std::_Tree_node<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>,std::_Default_allocator_traits<std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>>::void_pointer>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(360): message :             _Ty=std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(360): message :             _Objty=std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(360): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2029): message : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer>::_Buynode<std::allocator<std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer>>,std::pair<const _Kty,_Ty>&>(std::allocator<std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer>> &,std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,std::pair<const _Kty,_Ty> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2029): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2029): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2029): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2029): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2029): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2029): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2030): message : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer>::_Buynode<std::allocator<std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer>>,std::pair<const _Kty,_Ty>&>(std::allocator<std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer>> &,std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,std::pair<const _Kty,_Ty> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2030): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2030): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2030): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2030): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2030): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(2030): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Buynode<std::pair<const _Kty,_Ty>&>(std::pair<const _Kty,_Ty> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :             _Pr=std::less<Item::Type>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Buynode<std::pair<const _Kty,_Ty>&>(std::pair<const _Kty,_Ty> &)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :             _Pr=std::less<Item::Type>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1746): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy_or_move<std::pair<const _Kty,_Ty>,std::integral_constant<bool,false>>(std::pair<const _Kty,_Ty> &,std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy_tag,_Is_set)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Pr=std::less<Item::Type>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Is_set=std::integral_constant<bool,false>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy_or_move<std::pair<const _Kty,_Ty>,std::integral_constant<bool,false>>(std::pair<const _Kty,_Ty> &,std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy_tag,_Is_set)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Pr=std::less<Item::Type>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :             _Is_set=std::integral_constant<bool,false>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1767): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy_nodes<_Moveit>(std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Moveit)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Pr=std::less<Item::Type>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Moveit=std::_Tree<std::_Tmap_traits<Item::Type,std::unique_ptr<Item,std::default_delete<Item>>,std::less<Item::Type>,std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,false>>::_Copy_tag
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message : see reference to function template instantiation 'std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy_nodes<_Moveit>(std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer> *,_Moveit)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Pr=std::less<Item::Type>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :             _Moveit=std::_Tree<std::_Tmap_traits<Item::Type,std::unique_ptr<Item,std::default_delete<Item>>,std::less<Item::Type>,std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,false>>::_Copy_tag
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(1733): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message : see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy<std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy_tag>(const std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>> &,_Moveit)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Pr=std::less<Item::Type>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Moveit=std::_Tree<std::_Tmap_traits<Item::Type,std::unique_ptr<Item,std::default_delete<Item>>,std::less<Item::Type>,std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,false>>::_Copy_tag
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message : see reference to function template instantiation 'void std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy<std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Copy_tag>(const std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>> &,_Moveit)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Pr=std::less<Item::Type>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :             _Moveit=std::_Tree<std::_Tmap_traits<Item::Type,std::unique_ptr<Item,std::default_delete<Item>>,std::less<Item::Type>,std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,false>>::_Copy_tag
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\xtree(899): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message : see reference to function template instantiation 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Tree<std::allocator<std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>(const std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>> &,_Any_alloc &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Pr=std::less<Item::Type>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Any_alloc=std::allocator<std::_Tree_node<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>,std::_Default_allocator_traits<std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>>::void_pointer>>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message : see reference to function template instantiation 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>::_Tree<std::allocator<std::_Tree_node<std::pair<const _Kty,_Ty>,std::_Default_allocator_traits<_Alloc>::void_pointer>>>(const std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>> &,_Any_alloc &&)' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Kty=Item::Type,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Ty=std::unique_ptr<Item,std::default_delete<Item>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Pr=std::less<Item::Type>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Alloc=std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Any_alloc=std::allocator<std::_Tree_node<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>,std::_Default_allocator_traits<std::allocator<std::pair<const Item::Type,std::unique_ptr<Item,std::default_delete<Item>>>>>::void_pointer>>
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message : while compiling class template member function 'std::map<Item::Type,std::unique_ptr<Item,std::default_delete<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::unique_ptr<_Ty,std::default_delete<_Ty>>>>>::map(const std::map<_Kty,std::unique_ptr<_Ty,std::default_delete<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::unique_ptr<_Ty,std::default_delete<_Ty>>>>> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :         with
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :         [
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Ty=Item,
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :             _Kty=Item::Type
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\map(107): message :         ]
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.cpp(55): message : see reference to function template instantiation 'std::map<Item::Type,std::unique_ptr<Item,std::default_delete<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::unique_ptr<_Ty,std::default_delete<_Ty>>>>>::map(const std::map<_Kty,std::unique_ptr<_Ty,std::default_delete<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::unique_ptr<_Ty,std::default_delete<_Ty>>>>> &)' being compiled
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.cpp(55): message :         with
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.cpp(55): message :         [
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.cpp(55): message :             _Ty=Item,
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.cpp(55): message :             _Kty=Item::Type
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.cpp(55): message :         ]
+  Generating Code...
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.h(28): message : see reference to class template instantiation 'std::map<Item::Type,std::unique_ptr<Item,std::default_delete<_Ty>>,std::less<_Kty>,std::allocator<std::pair<const _Kty,std::unique_ptr<_Ty,std::default_delete<_Ty>>>>>' being compiled
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.h(28): message :         with
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.h(28): message :         [
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.h(28): message :             _Ty=Item,
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.h(28): message :             _Kty=Item::Type
+C:\Users\gunnm\Desktop\Programming 2\PP7\Goal.5.Classes.Inheritance.Operator.Overloads\Player.h(28): message :         ]
